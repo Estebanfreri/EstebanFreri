@@ -182,10 +182,65 @@ background-color: white;
 
 /* display background color black on navbar scroll */
 .navbarScroll.navbarDark {
-    background-color: black;
+    background-color: rgb(145, 143, 143);
 }
 
+#contact{
+    text-align: center;
+    background-color: #d3d3d3;
+}
 
+.textSupport{
+    margin-left: 40px;
+    padding-top: 40px;
+}
+
+#formulario {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.formulario_soporte {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.campo_textarea {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 200px;
+
+
+}
+
+.main_support {
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.main_support_form {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#nombre{
+
+margin-right: 17px;
+}
+
+#apellido{
+
+    margin-right: 16px;
+    }
 
 
 
@@ -434,6 +489,12 @@ background-color: white;
 
     #contact{
         text-align: center;
+        background-color: #d3d3d3;
+    }
+
+    .textSupport{
+        margin-left: 40px;
+        padding-top: 40px;
     }
 
     #formulario {
@@ -477,6 +538,11 @@ background-color: white;
 
     margin-right: 17px;
     }
+
+    #apellido{
+
+        margin-right: 16px;
+        }
 
 /* display background color black on navbar scroll */
 .navbarScroll.navbarDark {
