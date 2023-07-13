@@ -105,8 +105,8 @@ video {
 }
 
 #iconos img{
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
 }
     #iconos img:hover {
         transform: scale(1.1);
@@ -130,8 +130,8 @@ background-color: white;
     }
 
     .imagen_drone{
-        margin-bottom: 40px;
-        height: 50px;
+        margin-bottom: 30px;
+        height: 40px;
        
         animation-name: slow;
     animation-iteration-count: infinite;
@@ -238,7 +238,15 @@ margin-right: 17px;
     margin-right: 16px;
     }
 
-
+    .navbar {
+        height: 100px;
+        
+    }
+    
+    .imagenlogo{
+        height: 100px;
+        width: 100px;
+    }
 
 
 
@@ -423,6 +431,8 @@ background-color: white;
 }
 
 
+
+
  
 
     .texto_about{
@@ -546,13 +556,15 @@ background-color: white;
 }
 
 .navbar {
-    height: 110px;
+   
+    height: 100px;
 }
 
 .imagenlogo{
     height: 140px;
     width: 140px;
 }
+
 
 
 
