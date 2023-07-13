@@ -49,11 +49,7 @@ video {
 
 }
 
-.hero_title2{
-    font-family:  Georgia, 'Times New Roman', Times, serif;
-    font-size: 4rem;
-    
-}
+
 
 .hero_desc{
     font-size: 2rem;
@@ -336,8 +332,8 @@ video {
 }
 
 .hero_title{
-    font-family:  sans-serif ;
-    font-size: 6rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 4rem;
     
 
 }
@@ -415,9 +411,9 @@ video {
     height: 150px;
 }
     #iconos img:hover {
-        transform: scale(1.5);
+        transform: scale(1.2);
     background-color:rgb(255, 255, 255) ;
-        border-radius: 30px;
+        border-radius: 10px;
         transition: all 1s;
     }
 /* Portfolio */
@@ -547,6 +543,15 @@ background-color: white;
 /* display background color black on navbar scroll */
 .navbarScroll.navbarDark {
     background-color: black;
+}
+
+.navbar {
+    height: 110px;
+}
+
+.imagenlogo{
+    height: 140px;
+    width: 140px;
 }
 
 
